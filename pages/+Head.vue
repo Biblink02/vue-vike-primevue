@@ -1,10 +1,10 @@
 <!-- https://vike.dev/Head -->
 
 <template>
-  <link rel="icon" :href="logoUrl" />
+  <link :href="logoUrl" rel="icon" />
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 import "./tailwind.css";
 import logoUrl from "../assets/logo.svg";
 </script>

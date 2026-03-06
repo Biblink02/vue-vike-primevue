@@ -1,7 +1,7 @@
 <template>
   <div class="p-5 mb-2">
     <a href="/">
-      <img src="../assets/logo.svg" height="64" width="64" />
+      <img height="64" src="../assets/logo.svg" width="64" />
     </a>
   </div>
 </template>
