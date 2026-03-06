@@ -14,6 +14,13 @@ export default defineConfig({
       resolvers: [PrimeVueResolver()],
     }),
   ],
+  define: {
+    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: "false",
+    __VUE_PROD_DEVTOOLS__: "false",
+  },
+  ssr: {
+    noExternal: ["vue-i18n"],
+  },
   resolve: {
     alias: {
       "@assets": "/assets",
