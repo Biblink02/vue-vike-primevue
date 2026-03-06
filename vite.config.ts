@@ -1,7 +1,7 @@
+import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import tailwindcss from "@tailwindcss/vite";
 import vike from "vike/plugin";
-import { defineConfig } from "vite";
 import Components from "unplugin-vue-components/vite";
 import { PrimeVueResolver } from "@primevue/auto-import-resolver";
 
@@ -22,6 +22,11 @@ export default defineConfig({
       "@utils": "/utils",
       "@types": "/types",
       "@api": "/api",
+      "@stores": "/stores",
     },
+  },
+  test: {
+    environment: "happy-dom",
+    globals: true,
   },
 });

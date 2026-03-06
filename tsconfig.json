@@ -16,7 +16,8 @@
       "@pages/*": ["pages/*"],
       "@utils/*": ["utils/*"],
       "@types/*": ["types/*"],
-      "@api/*": ["api/*"]
+      "@api/*": ["api/*"],
+      "@stores/*": ["stores/*"]
     }
   },
   "exclude": ["dist"]
